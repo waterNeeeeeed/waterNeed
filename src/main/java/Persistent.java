@@ -1,5 +1,3 @@
-package com.runfeng.apt;
-
 import java.lang.annotation.*;
 
 /**

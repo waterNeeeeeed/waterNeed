@@ -1,5 +1,3 @@
-package com.runfeng.apt;
-
 import java.lang.annotation.*;
 
 /**
@@ -8,8 +6,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.SOURCE)
 @Target(ElementType.FIELD)
 @Documented
-public @interface Id {
+public @interface Property {
     String column();
     String type();
-    String generator();
 }
