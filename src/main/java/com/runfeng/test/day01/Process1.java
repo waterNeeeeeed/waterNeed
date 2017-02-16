@@ -1,4 +1,4 @@
-package com.runfeng.test;
+package com.runfeng.test.day01;
 
 import java.lang.reflect.Method;
 
@@ -10,8 +10,8 @@ public class Process1 {
         System.out.println("hello");
         int passed = 0;
         int failed = 0;
-        Method[] methods = Class.forName("com.runfeng.test.test1").getMethods();
-        Object t = Class.forName("com.runfeng.test.test1").newInstance();
+        Method[] methods = Class.forName("com.runfeng.test.day01.test1").getMethods();
+        Object t = Class.forName("com.runfeng.test.day01.test1").newInstance();
         for (Method m : methods){
             if (m.isAnnotationPresent(Testable.class)){
                 try {

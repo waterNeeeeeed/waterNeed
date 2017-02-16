@@ -1,10 +1,6 @@
-package com.runfeng.test;
+package com.runfeng.test.day01;
 
-import java.io.IOError;
 import java.io.IOException;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
 /**
  * Created by lenovo on 2017/2/10.

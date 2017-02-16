@@ -1,4 +1,4 @@
-package com.runfeng.test;
+package com.runfeng.test.day01;
 
 /**
  * Created by lenovo on 2017/2/15.
@@ -7,7 +7,7 @@ package com.runfeng.test;
 public class RfTagTest {
     public static void main(String[] args) throws ClassNotFoundException {
         Class<RfTagTest> clzz = RfTagTest.class;
-        //Class<?> clzz1 = Class.forName("com.runfeng.test.RfTagTest");//RfTagTest.class;
+        //Class<?> clzz1 = Class.forName("com.runfeng.test.day01.RfTagTest");//RfTagTest.class;
         //RfTagTest rt = new RfTagTest();
         RfTag[] rfTags = clzz.getDeclaredAnnotationsByType(RfTag.class);
         for (RfTag r:rfTags){
