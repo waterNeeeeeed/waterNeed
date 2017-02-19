@@ -15,6 +15,6 @@ public class Hello {
     }
 
     public static void main(String[] args){
-        System.out.println("MyClassLoader" + ":" + "Hello");
+        System.out.println("MyClassLoader" + ":" + "com.runfeng.test.day05.Hello");
     }
 }
